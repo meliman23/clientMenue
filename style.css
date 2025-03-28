@@ -8,6 +8,7 @@
         text-align: center;
         margin: 0;
         padding: 0;
+        overflow-y:none;
     }
     .menu-container {
         width: 80%;
@@ -60,6 +61,10 @@
         margin-top: 20px;
         font-size: 14px;
         color: gold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     @keyframes spinny {
@@ -136,4 +141,11 @@
         flex-direction: row;
         overflow-x: auto; /* Enables horizontal scrolling */
         white-space: nowrap;
+      }
+
+      .omma{
+        width: 50px;
+        height: auto;
+        margin: 8px;
+        border-radius: 4px;
       }
